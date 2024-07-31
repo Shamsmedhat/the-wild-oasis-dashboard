@@ -16,7 +16,7 @@ import AppLayout from "./ui/AppLayout";
 import Booking from "./pages/Booking";
 import Checkin from "./pages/Checkin";
 import ProtectedRoute from "./ui/ProtectedRoute";
-import { DarkModeProvider } from "./context/darkmodeContext.jsx";
+import { DarkModeProvider } from "./context/DarkModeContext";
 
 //! def bettwen V4 and V5
 //? #isLoading is now called #isPending

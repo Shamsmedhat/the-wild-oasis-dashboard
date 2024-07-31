@@ -3,7 +3,7 @@ import DashboardBox from "./DashboardBox";
 import Heading from "../../ui/Heading";
 import { Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import { eachDayOfInterval, format, isSameDay, subDays } from "date-fns";
-import { useDarkMode } from "../../context/darkmodeContext";
+import { useDarkMode } from "../../context/DarkModeContext";
 
 const StyledSalesChart = styled(DashboardBox)`
     grid-column: 1 / -1;
